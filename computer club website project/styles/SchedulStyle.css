@@ -1,0 +1,244 @@
+.topnav {
+    overflow: hidden;
+    width: 100%; /* Full width */
+}
+
+
+
+    .topnav p {
+        clear: both;
+        font-size: medium;
+        padding: 30px 30px;
+        margin: auto;
+        font-family: georgia;
+        font-style: italic;
+        background-color: #ffffff;
+        color: #222;
+    }
+
+
+
+    /* Style the links inside the navigation bar */
+
+    .topnav a {
+        float: right;
+        font-size: 20px;
+        font-family: cursive;
+        color: #b166a7;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+
+
+#logo {
+    float: left;
+    font-family: cursive;
+    padding: 14px 16px;
+}
+
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    color: #660440;
+}
+
+
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    color: #5060b8;
+}
+
+
+
+.topnav img {
+    padding: 14px 16px;
+    float: left;
+}
+
+
+
+
+
+.schedul a em {
+    font-size: 15px;
+    margin: auto;
+    font-weight: 100;
+    color: #E8EEF4;
+}
+
+
+
+.schedul table {
+    margin: 4px 7px 10px 47px;
+    font-family: 'Source Sans Pro';
+    font-weight: 100;
+    min-width: 80rem;
+    min-height: 50rem;
+    padding: 10px;
+    border: 1px solid #D5D8DC;
+    border-collapse: collapse;
+}
+
+
+
+.schedul th {
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: normal;
+    padding: 10px;
+    border: 1px solid #D5D8DC;
+    border-collapse: collapse;
+}
+
+
+
+.schedul td {
+    padding: 10px;
+    border: 1px solid #D5D8DC;
+    border-collapse: collapse;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+
+.schedul .event01 {
+    background-color: #a2b9b2;
+    color: white;
+    max-width: 20px;
+    border-color: #a2b9b2;
+    border-width: 2px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
+}
+
+
+
+.schedul .event02 {
+    background-color: #433352;
+    color: white;
+    max-width: 20px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
+    border-color: #433352;
+    border-width: 2px
+}
+
+
+
+.schedul .event03 {
+    background-color: #588093;
+    color: white;
+    max-width: 20px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
+    border-color: #588093;
+    border-width: 2px
+}
+
+
+
+.schedul .event04 {
+    background-color: #f6b065;
+    color: white;
+    max-width: 20px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
+    border-color: #f6b065;
+    border-width: 2px
+}
+
+
+
+.schedul a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+.schedul em {
+    font-size: 25px;
+    margin: 4px 7px 2px 420px;
+    font-weight: bold;
+    color: #273746;
+}
+
+
+
+.detailsPopups {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+
+/* Hide the Popup form */
+
+.details-popup {
+    background-color: #839192;
+    margin: 10vh auto; /* 15% from the top and centered */
+    padding: 20px;
+    width: 30%; /* Could be more or less, depending on screen size */
+    height: 40%;
+}
+
+
+
+
+
+.closebtn {
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+    .closebtn:hover {
+        color: black;
+    }
+
+
+
+.details h4 {
+    color: white;
+    font-size: small;
+    font-family: 'Lucida Sans Unicode';
+}
+
+
+
+.details h2 {
+    color: white;
+}
+
+
+
+.footer {
+    position: fixed;
+    font-size: medium;
+    height: 10%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: #7a8684;
+    text-align: center;
+}

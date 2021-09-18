@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نادي الحاسب | Computer Club</title>
+    <link rel="stylesheet" type="text/css" href="styles/MasterPagestyle.css">
+
+</head>
+<body>
+
+    <div class="topnav">
+        <a class="logo" id="logo" href="#"><img src="img/logocc.png"></a>
+        <a href="index.html">Home</a>
+        <a href="#">|</a>
+        <a href="PastEvent.html">Past Event</a>
+        <a href="#">|</a>
+        <a href="schedule.html">Events Schedule</a>
+        <a href="#">|</a>
+        <a href="index.html#contact_us">Contact Us</a>
+        <a href="#">|</a>
+        <a href="index.html#team_section">About Team</a>
+    </div>
+
+
+    <div class="join_us_section">
+        <img src="img/computerclube header.png" />
+        <h1>Welcome to the website of the Taif University College Computer Club.</h1>
+        <p>Do you want to be one of our family ?Join Us  </p>
+        <a href="membership.html"> <button>Apply a membership</button></a>
+    </div>
+
+
+
+    <div class="numbers_section">
+        <h1 class="h1numbers">Computer Club By Numbers</h1>
+        <div class="card">
+            <p class="cardname">Events</p>
+            <h3 class="cardnumber"> 30+ </h3>
+        </div>
+        <div class="card">
+            <p class="cardname">Seminars</p>
+            <h3 class="cardnumber"> 20+ </h3>
+        </div>
+        <div class="card">
+            <p class="cardname">Workshops</p>
+            <h3 class="cardnumber"> 15+ </h3>
+        </div>
+
+    </div>
+
+    <div class="team_section" id="team_section">
+        <h1 class="h1team">Our Team</h1>
+
+
+        <div class="team-member" id="team-member">
+            <img class="team-photo" src="img/team1.png">
+            <h3>Fatmah Alharthi</h3>
+            <a class="email" href="mailto:s43708440@students.tu.edu.sa"><span>email</span></a>
+        </div>
+
+        <div class="team-member">
+            <img class="team-photo" src="img/team2.png">
+            <h3>Bedoor Alzaidi</h3>
+            <a class="email" href="mailto:s43708440@students.tu.edu.sa"><span>email</span></a>
+        </div>
+
+        <div class="team-member">
+            <img class="team-photo" src="img/team3.png">
+            <h3>Eman Alrubaie</h3>
+            <a class="email" href="mailto:s43708440@students.tu.edu.sa"><span>email</span></a>
+        </div>
+
+        <div class="team-member">
+            <img class="team-photo" src="img/team4.png">
+            <h3>Afaf Alrubaie</h3>
+            <a class="email" href="mailto:s43708440@students.tu.edu.sa"><span>email</span></a>
+        </div>
+
+
+    </div>
+
+    </div>
+
+    <div class="contact_us" id="contact_us">
+
+        <h1 class="h1contact"> Contact us</h1>
+        <form method="POST" action="insert.php">
+
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="subject..">
+
+            <label for="dept">dept</label>
+            <select id="dept" name="dept">
+                <option value="CS">CS</option>
+                <option value="IT">IT</option>
+                <option value="CE">CE</option>
+            </select>
+
+            <label for="message">message</label>
+            <textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+
+    <div class="current_time_date">
+
+        <p id="CDT"></p>
+
+        <script>
+            var current_time_date = new Date();
+            document.getElementById("CDT").innerHTML = current_time_date;
+        </script>
+    </div>
+
+    <div class="footer">
+        <hr>
+        <p>
+            Created By students : Fatma ,eman . afaf.bedoor
+            <br> ©2020
+        </p>
+    </div>
+</body>
+</html>

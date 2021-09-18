@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+
+
+        .topnav {
+            overflow: hidden;
+            width: 100%;
+        }
+
+            .topnav p {
+                clear: both;
+                font-size: medium;
+                padding: 30px 30px;
+                margin: auto;
+                ;
+                font-family: georgia;
+                font-style: italic;
+                background-color: #ffffff;
+                color: #222;
+            }
+
+            .topnav a {
+                float: right;
+                font-size: 20px;
+                font-family: cursive;
+                color: #753377;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+        #logo {
+            float: left;
+            font-family: cursive;
+            padding: 14px 16px;
+        }
+
+
+        .topnav a:hover {
+            color: #660440;
+        }
+
+
+        .topnav a.active {
+            color: #5060b8;
+        }
+
+        .topnav img {
+            padding: 14px 16px;
+            float: left;
+        }
+
+
+
+        .footer {
+            font-size: medium;
+            height: 10%;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: #7a8684;
+            text-align: center;
+        }
+
+        .membership {
+            max-width: 550px;
+            margin: 2rem auto;
+            padding: 20px;
+        }
+
+        input[type=text], input[type=password], input[type=email] {
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+
+        textarea {
+            max-width: 85%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+
+        select {
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="topnav">
+        <a class="logo" id="logo" href="#"><img src="img/logocc.png"></a>
+        <a href="index.html">Home</a>
+        <a href="#">|</a>
+        <a href="PastEvent.html">Past Event</a>
+        <a href="#">|</a>
+        <a href="schedule.html">Events Schedule</a>
+        <a href="#">|</a>
+        <a href="index.html#contact_us">Contact Us</a>
+        <a href="#">|</a>
+        <a href="index.html#team_section">About Team</a>
+    </div>
+
+    <div class="somethinhere">
+        <form class="membership" action="test.php" method="post">
+            <div class="container">
+                <h1>Club Membership Application Form</h1>
+                <p>Please fill out the form below. We will Contact you as soon as possible.</p>
+                <hr>
+
+                <label for="name">
+                    <b>Name</b><br>
+                    <input type="text" placeholder="First" name="fname" required size='30'>     <input type="text" placeholder="Last" name="lname" required size='30'>
+                </label>
+                <br>
+                <label for="memberinfo">
+                    <b>Member Information</b><br>
+                    <input type="text" placeholder="ID Number" name="idnum" required size='30'> <input type="text" placeholder="Department" name="department" required size='30'><br>
+                    <br>Academic year <select name="level" required>
+                        <option>select year</option>
+                        <option>First year</option>
+                        <option>Second year</option>
+                        <option>Third year</option>
+                        <option>Fourth year</option>
+                        <option>Fifth year</option>
+                    </select>
+                    <br>
+                    <p>Your skills<br> <textarea name="skills" cols="70">  </textarea></p>
+                </label>
+
+                <label for="email"><b>Email</b></label><br>
+                <input type="email" placeholder="name@mail.com" name="email" required size='68'></label>
+                <br>
+                <br>
+
+                <p>what are your reasons for applying to join the club? <br> <textarea name="reson" cols="70">  </textarea></p>
+
+
+                <center>
+                    <label>
+                        <input type="submit" value="save" name="submit" style="background-color: #d6601c; padding:10px 42px;color:white;font-size:16px;border-radius:6px;
+cursor:pointer; ">
+
+                    </label>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+
+        </form>
+
+
+
+    </div>
+
+    <br><br><br><br><br>
+
+    <div class="footer">
+        <p>Created By students : Fatma ,eman . afaf.bedoor</p>
+    </div>
+</body>
+</html>

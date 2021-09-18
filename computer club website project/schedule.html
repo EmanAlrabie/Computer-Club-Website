@@ -1,0 +1,265 @@
+﻿﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Schedule | جدول الفعاليات </title>
+    <link rel="stylesheet" type="text/css" href="styles/SchedulStyle.css" />
+</head>
+<body>
+    <div class="topnav">
+        <a class="logo" id="logo" href="#"><img src="img/logocc.png"></a>
+        <a href="index.html">Home</a>
+        <a href="#">|</a>
+        <a href="PastEvent.html">Past Event</a>
+        <a href="#">|</a>
+        <a href="schedule.html">Events Schedule</a>
+        <a href="#">|</a>
+        <a href="index.html#contact_us">Contact Us</a>
+        <a href="#">|</a>
+        <a href="index.html#team_section">About Team</a>
+    </div>
+
+    <div class="schedul">
+        <em>Here you  can find information about upcoming event</em><br>
+        <br />
+        <table >
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>September</th>
+                    <th>October</th>
+                    <th>November</th>
+                    <th>December</th>
+                    <th>January</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td rowspan="5" class="event03"><a href="#" onclick="openDetails(1)"><em>10:00 - 12:00</em><br>The Code Competition</a></td>
+                    <td></td>
+                    <td></td>
+                    <td class="event04"><a href="#" onclick="openDetails(2)"><em>08:15 - 9:30</em><br>Run-Catch-Code Event</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td> </td>
+
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td class="event01" rowspan="2"><a href="#" onclick="openDetails(8)"><em>13:00 - 14:30</em><br>Geeks Party </a></td>
+                    <td></td>
+                    <td></td>
+                    <td class="event03"><a href="#" onclick="openDetails(6)"><em>09:30 - 10:30</em><br> Dream Story Event</a></td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td></td>
+                    <td class="event03"><a href="#" onclick="openDetails(3)"><em>09:30 - 12:00</em><br>Technical Cultures Day Event</a></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <th>6</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>7</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="event04"><a href="#" onclick="openDetails(5)"><em>11:30 - 13:30</em><br>Computer Cinema Day</a></td>
+                </tr>
+                <tr>
+                    <th>8</th>
+                    <td></td>
+                    <td class="event02"><a href="#" onclick="openDetails(4)"><em>14:00 - 15:00</em><br>Programming Day</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>9</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="event02"><a href="#" onclick="openDetails(3)"><em>09:00 - 10:00</em><br>Technical Cultures Day Event</a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>10</th>
+                    <td class="event04"><a href="#" onclick="openDetails(2)"><em>09:00 - 10:30</em><br>Run-Catch-Code Event</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>11</th>
+                    <td></td>
+                    <td></td>
+                    <td class="event01" rowspan="2"><a href="#" onclick="openDetails(7)"><em>12:30 - 14:00</em><br>Generational Encounter Event</a></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>12</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <th>13</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>14</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>15</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>16</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div class="details">
+
+        <div id="detailsPopup1" class="detailsPopups">
+            <div class="details-popup">
+                <span class="closebtn" onclick="closeDetails(1)">&times;</span>
+                <div>
+                    <h2>The Code Competition</h2><br>
+                    <h4>A competition in which students under 4 teams participate, particular programming concept assigned to each week , those who did not pass the weekly programming challenge are excluded until we reach the final stage . </h4>
+                </div>
+            </div>
+        </div>
+        <div id="detailsPopup2" class="detailsPopups">
+            <div class="details-popup">
+                <span class="closebtn" onclick="closeDetails(2)">&times;</span>
+                <div>
+                    <h2>Run-Catch-Code Event</h2><br>
+                    <h4>A dynamic programming activity, in which the participants are divided into two teams: a team that tries to reach and cross the map points by solving the code and another team trying to chase them and catch them on the way.</h4>
+                </div>
+            </div>
+        </div>
+        <div id="detailsPopup3" class="detailsPopups">
+            <div class="details-popup">
+                <span class="closebtn" onclick="closeDetails(3)">&times;</span>
+                <div>
+                    <h2>Technical Cultures Day Event</h2><br>
+                    <h4>Each team tries to highlight the quality of the technology products and services of their favorite company.</h4>
+                </div>
+            </div>
+        </div>
+        <div id="detailsPopup4" class="detailsPopups">
+            <div class="details-popup">
+                <span class="closebtn" onclick="closeDetails(4)">&times;</span>
+                <div>
+                    <h2>Programming day</h2><br>
+                    <h4> club members teach important programming languages and their sources to students.</h4>
+                </div>
+            </div>
+        </div>
+        <div id="detailsPopup5" class="detailsPopups">
+            <div class="details-popup">
+                <span class="closebtn" onclick="closeDetails(5)">&times;</span>
+                <div>
+                    <h2>Computer Cinema Day</h2><br>
+                    <h4>Watching a movie covering what is expected to be the world's largest privacy violation .</h4>
+                </div>
+            </div>
+        </div>
+        <div id="detailsPopup6" class="detailsPopups">
+            <div class="details-popup">
+                <span class="closebtn" onclick="closeDetails(6)">&times;</span>
+                <div>
+                    <h2>Dream Story Event</h2><br>
+                    <h4>One from the college tell their stories .</h4>
+                </div>
+            </div>
+        </div>
+        <div id="detailsPopup7" class="detailsPopups">
+            <div class="details-popup">
+                <span class="closebtn" onclick="closeDetails(7)">&times;</span>
+                <div>
+                    <h2>Generational Encounter Event</h2><br>
+                    <h4>students graduate from the college are hosted to talk about thier stories in various educational, academic, management and commercial fields.</h4>
+                </div>
+            </div>
+        </div>
+        <div id="detailsPopup8" class="detailsPopups">
+            <div class="details-popup">
+                <span class="closebtn" onclick="closeDetails(8)">&times;</span>
+                <div>
+                    <h2>Geeks Party</h2><br>
+                    <h4>College students create corners e.g. video gamers corner and fastest programmer corner.</h4>
+                </div>
+            </div>
+        </div>
+
+        <script>
+
+            function openDetails(i) {
+                document.getElementById("detailsPopup" + i).style.display = "block";
+
+            }
+
+            function closeDetails(i) {
+                document.getElementById("detailsPopup" + i).style.display = "none";
+            }
+
+
+        </script>
+
+    </div>
+
+    <div class="footer">
+        <p>Created By students : Fatma ,eman , afaf, bedoor</p>
+    </div>
+
+
+</body>
+</html>

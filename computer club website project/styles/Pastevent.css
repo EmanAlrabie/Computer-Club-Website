@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap');
+body 
+{
+margin: 0;
+padding:0;
+font-family: 'Montserrat', sans-serif;
+}
+ .timeline
+{
+	position:relative;
+	margin: 50px auto;
+	padding:40px 0;
+	width:1000px;
+	box-sizing:border-box;
+}
+
+  .timeline:before
+{
+	content:'';
+	position:absolute;
+	left:50%;
+	width:2px;
+	height:100%;
+	background:#c5c5c5;
+	
+}
+
+
+ .timeline ul
+{
+	margin:0;
+	padding:0;
+}
+.timeline ul li
+{
+	 list-style: none;
+	 position: relative;
+	 width: 50%;
+	padding: 20px 40px;
+	 box-sizing: border-box;
+}
+  .timeline ul li:nth-child(odd)
+{
+	 float:left;
+	 text-align:right;
+	 clear:both;
+}
+ .timeline ul li:nth-child(even)
+{
+	 float:right;
+	 text-align:lift;
+	 clear:both;
+}
+  .content
+  {
+	padding-bottom:20px  
+	  
+  }
+    .timeline ul li:nth-child(odd):before
+{
+	content:'';
+	top:24px;
+	right:-6px;
+	position:absolute;
+	width:10px;
+	height:10px;
+	background:#330d70;
+	border-radius:50%;
+	box-shadow:0 0 0 3px rgba(128, 86, 182, 0.2);
+}
+    .timeline ul li:nth-child(even):before
+{
+	content:'';
+	top:24px;
+	left:-4px;
+	position:absolute;
+	width:10px;
+	height:10px;
+	background:#130c57;
+	border-radius:50%;
+	box-shadow:0 0 0 3px rgba(110, 33, 233, 0.2);
+}
+ 
+  
+.timeline ul li .time h3
+{
+ margin:0;
+padding:0;
+font-size:14px 
+	
+}
+.timeline ul li:nth-child(odd) .time
+{
+	 position:absolute;
+	 top:12px;
+	 right:-180px;
+	 margin:0;
+	 padding: 8px 16px;
+	 background:#a74106;
+	 color:#fff;
+	 border-radius:18px;
+	 box-shadow:0 0 0 3px rgba(231, 128, 31, 0.3);
+}
+.timeline ul li:nth-child(even) .time
+{
+	 position:absolute;
+	 top:12px;
+	 left:-180px;
+	 margin:0;
+	 padding: 8px 16px;
+	 background:#a74106;
+	 color:#fff;
+	 border-radius:18px;
+	 box-shadow: 0 0 0 3px rgba(231, 128, 31, 0.3);
+}
+ 
+ 
+ 
+ .topnav {
+    overflow: hidden;
+    width: 100%; /* Full width */
+  }
+
+.topnav p {
+    clear: both;
+   font-size:medium;
+    padding: 30px 30px;
+    margin: auto;
+ ; 
+    font-family: georgia;
+    font-style: italic;
+    background-color: #ffffff;
+    color: #222; 
+
+}
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+	float: right;
+	font-size: 20px;
+	font-family: cursive;
+	color:#753377;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+  }
+  #logo {
+    float: left;
+    font-family: cursive;
+    padding: 14px 16px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: #660440 ;
+
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color:#5060b8;
+  }
+  .topnav img {
+    padding: 14px 16px;
+    float:left;
+  }
+
+  .somethinghere{
+    height: 100%;
+  }
+  
+ .footer {
+  font-size: medium;
+  height:10%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#ffffff;
+    color: #7a8684;
+    text-align: center;
+  }
+ 
+ 

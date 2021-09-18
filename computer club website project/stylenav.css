@@ -1,0 +1,125 @@
+.topnav {
+    overflow: hidden;
+    width: 100%; /* Full width */
+  }
+
+.topnav p {
+    clear: both;
+   font-size:medium;
+    padding: 30px 30px;
+    margin: auto;
+  
+    font-family: georgia;
+    font-style: italic;
+    background-color: #ffffff;
+    color: #222; 
+
+}
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    font-size: 20px;
+    font-family: cursive;
+    color:#b166a7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+  #logo {
+    float: left;
+    font-family: cursive;
+    padding: 14px 16px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: #660440;
+
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color:#5060b8;
+  }
+  .topnav img {
+    padding: 14px 16px;
+    float:left;
+  }
+
+.somethinghere {
+    height: 100%;
+    font-size: small;
+}
+em {
+    font-size: 25px;
+    margin: 4px 7px 2px 420px;
+    font-weight: bold;
+    color: #273746;
+}
+table {
+    margin: 4px 7px 2px 75px;
+    font-family: 'Source Sans Pro';
+    font-weight: 100;
+    max-width: 75rem;
+}
+th{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:small;
+    font-weight:normal;
+}
+.event01 {
+    background-color: #a2b9b2;
+    color: white;
+    max-width: 20px;
+}
+.event02 {
+    background-color: #433352;
+    color: white;
+    max-width: 20px;
+}
+.event03 {
+    background-color: #588093;
+    color: white;
+    max-width: 20px;
+}
+.event04 {
+    background-color: #f6b065;
+    color: white;
+    max-width: 20px;
+}
+.footer {
+    position: fixed;
+    font-size: medium;
+    height: 10%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: #7a8684;
+    text-align: center;
+}
+
+    
+#cell-disply {
+    position: relative;
+    color:red;
+}
+.cell-notdisply {
+    display: none;
+}
+
+#cell-disply:hover {
+     background-color: Aquamarine;
+     transform: translate(10px, 10px);
+     resize: inherit;
+}
+
+#cell-disply:hover i {
+   display: none;
+}
+
+#cell-disply:hover .cell-notdisply {
+    display: contents;
+}

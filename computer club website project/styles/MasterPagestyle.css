@@ -1,0 +1,258 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],input[type=email],select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+}
+
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color:#d6601c; 
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: rgb(189, 116, 60);
+}
+
+body, html {
+  height: 100%;
+}
+
+.join_us_section{
+height:100%;
+background-color: #ffffff;
+top: 50%;
+left: 50%;
+}
+
+.join_us_section h1,p {
+text-align: center;
+top: 50%;
+left: 50%;
+color: rgb(42, 40, 116);
+}
+
+.join_us_section button {
+border-radius: 4px;
+cursor: pointer;
+position: relative;
+top:50%; 
+left:43%;
+  background-color:#d6601c; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+.join_us_section button:hover{
+transform: scale(1.3);
+cursor: pointer;
+}
+
+.join_us_section img {
+position: relative;
+top:50%; 
+left:30%;
+}
+
+/*.join_us_section:hover{
+/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+ /* background-image: linear-gradient(rgba(105, 94, 94, 0.5), rgba(0, 0, 0, 0.5)), url("img\blog-hero-bg (1).png"); */
+/* } */
+
+.numbers_section{
+  background-image: url(/img/hd.png);
+  align-content: center;
+  width: 100%;
+  height: 50%;
+}
+.numbers_section .card {
+  align-items: center;
+  height: 50%;
+  width: 6%;
+  float: left;
+  padding-left: 10%;
+  margin-left: 10%;
+  margin-top: 4%;
+    background-color:#e9e9e9;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.16);
+
+  
+}
+
+.numbers_section .card .cardnumber {
+
+  text-align: center;
+  font-weight: bold;
+  margin-top: 28px;
+  margin-bottom: 8px;
+  color:#b44c10;
+}
+
+.numbers_section .card  .cardname{
+  text-align: center;
+  text-transform: uppercase;
+font-weight: bold;
+color: #080808;
+letter-spacing: 2px;
+font-size: 13px;
+}
+
+
+
+/* Add a background color and some padding around the form */
+.contact_us {
+  background-color: #e9e9e9;
+  padding: 40px;
+}
+
+
+/* Add a  to the top navigation */
+.topnav {
+  overflow: hidden;
+  width: 100%; /* Full width */
+}
+
+.topnav p {
+  clear: both;
+ font-size:medium;
+  padding: 30px 30px;
+  margin: auto;
+; 
+  font-family: georgia;
+  font-style: italic;
+  background-color: #ffffff;
+  color: #222; 
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  font-size: 20px;
+  font-family: cursive;
+  color:#753377;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+#logo {
+  float: left;
+  font-family: cursive;
+  padding: 14px 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #660440;
+
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color:#5060b8;
+}
+.topnav img {
+  padding: 14px 16px;
+  float:left;
+}
+
+
+
+
+/* Team Member CSS 
+===========================*/
+h1.h1numbers{
+  text-align: center;
+  left: 40%;
+  font-family: georgia;
+  font-style: italic;
+  padding: 0px 20px;
+  color: rgb(255, 255, 255); 
+}
+h1.h1team {
+text-align: center;
+left: 40%;
+font-family: georgia;
+font-style: italic;
+
+color: rgb(42, 40, 116);  
+}
+h1.h1contact {
+  text-align: center;
+  left: 40%;
+  font-family: georgia;
+  font-style: italic;
+  padding: 0px 20px;
+  color: rgb(42, 40, 116);  
+}
+
+.team_section {
+  height:40%;
+  max-width: 1000px;
+  margin: auto;
+  border-top: 1px #e9e9e9 solid;
+  border-bottom: 1px #e9e9e9 solid;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  margin-top: 3em;
+  position: relative;
+  align-content: center;
+}
+
+.team-member {
+  width: 16%;
+  float: left;
+  text-align: center;
+  padding-left: 6%;
+}
+ 
+
+.team-member h3 {
+  color: rgb(42, 40, 116);
+}
+
+.email {
+  color: #b44c10;
+  
+}
+
+.team-photo {
+  border-radius: 50%;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.team-photo:hover {
+  transform: scale(0.9);
+}
+
+
+
+.footer {
+font-size: medium;
+height:10%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #7a8684;
+  text-align: center;
+}
